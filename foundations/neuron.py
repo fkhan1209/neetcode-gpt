@@ -10,4 +10,4 @@ class Solution:
             ans = 1/ (1 + (math.exp(-z)))
         else:
             ans = max(0, z)
-        return np.round(float(ans), 5)
+        return round(float(ans), 5)
